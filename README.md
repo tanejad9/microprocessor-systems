@@ -16,33 +16,37 @@ Skeleton template for assignment #01.
 
 Skeleton template for assignment #02.
 
-### assignments/assign03
-
-Skeleton template for assignment #03.
-
 ## examples
 
 Top level folder containing all example projects.
 
 ### examples/blink_asm
+
 An assembly-based application that flashes the built-in LED of the Pi Pico board using subroutines with the delay between LED toggles set using a CPU sleep command.
 
 ### examples/blink_c
+
 A C-based application that flashes the built-in LED of the Pi Pico board with the delay between LED toggles set using a CPU sleep command.
 
 ### examples/blink_svc
+
 An assembly-based application that flashes the built-in LED of the Pi Pico board using SVC exception handlers with the delay between LED toggles set using a CPU sleep command.
 
 ### examples/hello_c
+
 A C-based application that uses UART0 to print a "Hello World!" message to the console.
 
+### examples/multi_c
+
+A C-based application that uses both CPU cores to calculate factorial and Fibonacci sequences and display the results to the console.
+
 ### examples/ws2812_rgb
+
 A C-based application that uses PIO to alternately flash the NeoPixel on the MAKER-PI-PICO board red, green then blue in a continuous loop.
 
 ## labs
 
 Top-level folder containing skeleton project templates for the ten course lab exercises.
-
 
 ### labs/lab01
 
