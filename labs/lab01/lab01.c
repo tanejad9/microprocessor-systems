@@ -11,7 +11,7 @@
 *   @return void this function returns nothing (void)
 */
 
-void blink_fn(u_int LED_PIN, u_int LED_DELAY){
+void blink_fn(uint LED_PIN, uint LED_DELAY){
     // Toggle the LED on and then sleep for delay period
         gpio_put(LED_PIN, 1); 
         sleep_ms(LED_DELAY);
